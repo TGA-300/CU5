@@ -1,0 +1,82 @@
+li {
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+}
+li+ li {
+    border-left: 1px solid grey;
+}
+h1 {
+    background-color: #F2F2F2;
+    border-left: 1px solid red;
+}
+body {
+    margin-left: 15em;
+    margin-right: 15em;
+}
+#container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 213.52px;
+    margin-bottom: 10rem;
+}
+#menu11 {
+    grid-row: 1;
+    grid-column: 1;
+    border-bottom: 1px dashed black;
+}
+#menu12 {
+    grid-row: 1;
+    grid-column: 2;
+    border-bottom: 1px dashed black;
+}
+#menu13 {
+    grid-row: 1;
+    grid-column: 3;
+    border-bottom: 1px dashed black;
+}
+#menu14 {
+    grid-row: 1;
+    grid-column: 4;
+    border-bottom: 1px dashed black;
+}
+#menu21 {
+    grid-row: 2;
+    grid-column: 1;
+    border-bottom: 1px dashed black;
+}
+#menu22 {
+    grid-row: 2;
+    grid-column: 2;
+    border-bottom: 1px dashed black;
+}
+#menu23 {
+    grid-row: 2;
+    grid-column: 3;
+    border-bottom: 1px dashed black;
+}
+#menu24 {
+    grid-row: 2;
+    grid-column: 4;
+    border-bottom: 1px dashed black;
+}
+#menu31 {
+    grid-row: 3;
+    grid-column: 1;
+    border-bottom: 1px dashed black;
+}
+#menu32 {
+    grid-row: 3;
+    grid-column: 2;
+    border-bottom: 1px dashed black;
+}
+#menu33 {
+    grid-row: 3;
+    grid-column: 3;
+    border-bottom: 1px dashed black;
+}
+#menu34 {
+    grid-row: 3;
+    grid-column: 4;
+    border-bottom: 1px dashed black;
+}
